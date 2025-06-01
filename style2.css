@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Dark gray background for the container */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* White color for the heading */
+}
+
+.programs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.program {
+    background-color: #444; /* Darker gray for program boxes */
+    padding: 20px;
+    border: 1px solid #555; /* Slightly lighter border */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.program h2 {
+    margin-top: 0;
+    color: #fff; /* White color for program titles */
+}
+
+.program ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.program ul li {
+    margin: 5px 0;
+    color: #ddd; /* Light gray for list items */
+}
+
+.price {
+    font-size: 1.2em;
+    color: #fff; /* White color for price */
+    margin-top: 10px;
+}
